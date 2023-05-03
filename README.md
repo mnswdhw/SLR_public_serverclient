@@ -49,13 +49,6 @@ Launch the below instance(s) in the same VPC and Subnet of a AWS region.
 * urllib3            1.26.13
 * wheel              0.40.0
 
-# Running the scripts 
-
-* Server: `python server_manas.py --global_epochs 10 --num_clients 2 --port 9093`
-* Client: `python client_manas.py --global_epochs 10 --num_clients 2 --port 9093`
-
-Run the client script n times in the same instance in different terminal windows to simulate n different clients. (This step will be automated later so that in case n is large it is not required to do this step manually)
-
 # Results (Setting-1 Cifar-10) 
 
 * Datapoints Accuracy 
